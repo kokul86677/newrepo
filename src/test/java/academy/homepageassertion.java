@@ -23,7 +23,7 @@ public class homepageassertion extends browserpath{
 		Assert.assertTrue(p.mailn().isDisplayed());
 		log.debug("donef");
 		log.error("not done");
-		//driver.close();
+		driver.close();
 		//driver.quit();
 		
 	}
